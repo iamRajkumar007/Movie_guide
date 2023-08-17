@@ -1,6 +1,4 @@
 // initial references
-
-
 let movieNameRef = document.getElementById("movie-name");
 let searchBtn = document.getElementById("search-btn");
 let result = document.getElementById("result");
@@ -8,7 +6,7 @@ let result = document.getElementById("result");
 // function to fetch data from API
 let getMovie = () => {
     let movieName = movieNameRef.value;
-    let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
+    let url = `https://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
 
     // if input field is empty
     if(movieName.length <= 0){
