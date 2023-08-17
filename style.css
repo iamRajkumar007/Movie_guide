@@ -133,7 +133,6 @@ p {
 
 .msg {
     text-align: center;
-    height: 10;
 }
 
 @media screen and (max-width: 600px){
